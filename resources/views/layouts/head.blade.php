@@ -1,10 +1,14 @@
-<title>MyCompany - ZyPop Web Templates</title>
-
-<meta charset="utf-8">
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-<!-- Main CSS --> 
-<link rel="stylesheet" href="{{asset('css/style.css')}}">
+<!-- Title  -->
+<title>Amado - Furniture Ecommerce Template | Home</title>
 
-<!-- Font Awesome -->
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- Favicon  -->
+<link rel="icon" href=" {{asset('img/core-img/favicon.ico')}}">
+<!-- Core Style CSS -->
+<link rel="stylesheet" href="{{asset('css/core-style.css')}}">
+<link rel="stylesheet" href="{{asset('style.css')}}">
