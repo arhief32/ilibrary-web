@@ -1,67 +1,76 @@
-<!-- Gray bg jumbotron -->
-<div class="gray-bg-container mb-0 jumbotron-wrap">
-    <div class="container">
-        <div class="jumbotron px-0">
-             <h2>Lorem lipsum</h2>
-            <p class="lead">Quisque sagittis, est in laoreet semper, enim dui consequat felis, faucibus ornare urna velit nec leo. Maecenas condimentum velit vitae est lobortis fermentum. In tristique sem vitae metus ornare luctus tempus nisl volutpat. Integer et est id nisi tempus pharetra sagittis et libero.</p>
-        </div>
-    </div>
-</div>
-
-
-<!-- Footer -->
-<footer class="footer">
-    <div class="footer-lists">
+<!-- ##### Newsletter Area Start ##### -->
+<section class="newsletter-area section-padding-100-0">
         <div class="container">
-            <div class="row">
-                <div class="col-sm">
-                    <ul>
-                        <li><h4>Proin accumsan</h4></li>
-                        <li><a href="#">Rutrum nulla a ultrices</a></li>
-                        <li><a href="#">Blandit elementum</a></li>
-                        <li><a href="#">Proin placerat accumsan</a></li>
-                        <li><a href="#">Morbi hendrerit libero </a></li>
-                        <li><a href="#">Curabitur sit amet tellus</a></li>
-                    </ul>
+            <div class="row align-items-center">
+                <!-- Newsletter Text -->
+                <div class="col-12 col-lg-6 col-xl-7">
+                    <div class="newsletter-text mb-100">
+                        <h2>Subscribe for a <span>25% Discount</span></h2>
+                        <p>Nulla ac convallis lorem, eget euismod nisl. Donec in libero sit amet mi vulputate consectetur. Donec auctor interdum purus, ac finibus massa bibendum nec.</p>
+                    </div>
                 </div>
-                <div class="col-sm">
-                    <ul>
-                        <li><h4>Condimentum</h4></li>
-                        <li><a href="#">Curabitur sit amet tellus</a></li>
-                        <li><a href="#">Morbi hendrerit libero </a></li>
-                        <li><a href="#">Proin placerat accumsan</a></li>
-                        <li><a href="#">Rutrum nulla a ultrices</a></li>
-                        <li><a href="#">Cras dictum</a></li>
-                    </ul>
-                </div>   
-                <div class="col-sm">
-                    <ul>
-                        <li><h4>Suspendisse</h4></li>
-                        <li><a href="#">Morbi hendrerit libero </a></li>
-                        <li><a href="#">Proin placerat accumsan</a></li>
-                        <li><a href="#">Rutrum nulla a ultrices</a></li>
-                        <li><a href="#">Curabitur sit amet tellus</a></li>
-                        <li><a href="#">Donec in ligula nisl.</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm">
-                    <h4>Suspendisse</h4>
-                    <p>Integer mattis blandit turpis, quis rutrum est. Maecenas quis arcu vel felis lobortis iaculis fringilla at ligula. Nunc dignissim porttitor dolor eget porta.</p>
-                    <p class="social-icons">
-                        <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
-                        <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-                        <a href="#"><i class="fa fa-youtube fa-2x"></i></a>
-                        <a href="#"><i class="fa fa-instagram fa-2x"></i></a>
-                    </p>
+                <!-- Newsletter Form -->
+                <div class="col-12 col-lg-6 col-xl-5">
+                    <div class="newsletter-form mb-100">
+                        <form action="#" method="post">
+                            <input type="email" name="email" class="nl-email" placeholder="Your E-mail">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-    
-    <div class="footer-bottom">
-            <p class="text-center">Free Bootstrap Template by <a href="https://zypopwebtemplates.com/">ZyPop</a>.</p>
-            <p class="text-center"><a href="#">Back to top</a></p>
-    </div>
-    
-</footer>
+    </section>
+    <!-- ##### Newsletter Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer_area clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Single Widget Area -->
+                <div class="col-12 col-lg-4">
+                    <div class="single_widget_area">
+                        <!-- Logo -->
+                        <div class="footer-logo mr-50">
+                            <a href="index.html"><img src="img/core-img/logo2.png" alt=""></a>
+                        </div>
+                        <!-- Copywrite Text -->
+                        <p class="copywrite"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+                <!-- Single Widget Area -->
+                <div class="col-12 col-lg-8">
+                    <div class="single_widget_area">
+                        <!-- Footer Menu -->
+                        <div class="footer_menu">
+                            <nav class="navbar navbar-expand-lg justify-content-end">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#footerNavContent" aria-controls="footerNavContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+                                <div class="collapse navbar-collapse" id="footerNavContent">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="index.html">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="shop.html">Shop</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="product-details.html">Product</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="cart.html">Cart</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="checkout.html">Checkout</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area End ##### -->
